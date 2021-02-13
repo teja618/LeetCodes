@@ -1,15 +1,22 @@
-public class BubbleSort{
+public class BubbleSort {
     public static void main(String args[]){
-
-        int arr[]={10,8,20,5};
-        for(int i=0;i<arr.length;i++){
-            //Reason for j=i+1 ; we will ignore already sorted elements in further iterations
-            for(int j=i+1;j<arr.length;j++){
-                if(arr[i]>arr[j]){
-                    int temp=arr[i];
-                    arr[i]=arr[j];
-                    arr[j]=temp;
+        int arr[]={1,2,5,1,15};
+        boolean check=false;
+        for(int i=0; i<arr.length; i++)
+        {
+            check=false;
+            for(int j=0; j<arr.length-i-1; j++)
+            {
+                if(arr[j]>arr[j+1])
+                {
+                    check=true;
+                    int temp = arr[j+1];
+                    arr[j+1] = arr[j];
+                    arr[j] = temp;
                 }
+            }
+            if(!check){
+                break;
             }
         }
         for(int i=0;i<arr.length;i++){
