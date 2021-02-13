@@ -1,4 +1,5 @@
-# LeetCode Solutions
+Keep an eye on the repo to find intresting problems!!!
+# LeetCode & GFG Solutions
 Solutions For LeetCode Problems:
 
 1. Find First and Last Position of Element in Sorted Array

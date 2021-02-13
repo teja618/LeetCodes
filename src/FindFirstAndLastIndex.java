@@ -1,4 +1,5 @@
 //Find First and Last Position of Element in Sorted Array
+//nums[]= {1,2,3,4,5,1} Answer: 0 , 5
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] solutions=new int[2];
