@@ -1,4 +1,3 @@
-Keep an eye on the repo to find intresting problems!!!
 # LeetCode & GFG Solutions
 Solutions For LeetCode Problems:
 
